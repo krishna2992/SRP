@@ -1,0 +1,101 @@
+/* styles.css */
+
+.distribution-container{
+  font-family: Arial, sans-serif;
+  /* max-width: 800px; */
+  margin: 10px;
+  padding: 20px;
+  font-size: large;
+}
+
+
+
+.subject {
+  margin-bottom: 20px;
+}
+
+.subject-name {
+  margin-top: 0;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Set the table layout to fixed */
+}
+
+.index-header,
+.name-header,
+.select-header {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  width: 33.33%; /* Equal width for each column */
+}
+
+.index-cell,
+.name-cell,
+.select-cell {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  width: 33.33%; /* Equal width for each column */
+}
+
+.student-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.submit-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.acad-electives-select{
+  /* margin-left: 10px; */
+  border-radius: 5px;
+  background-color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: 2px solid black ;
+}
+
+
+.acad-electives-select-div {
+  margin-bottom: 20px;
+}
+
+.fetch-students-button{
+  border-radius: 5px;
+  background-color: #064b8b;
+  color: white;
+  padding: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 16px;
+  border: none  ;
+  border-radius: 4px;
+  border: 2px solid #064b8b ;
+}
+
+
+/* Optional: Add margin between dropdowns */
+select + select {
+  margin-left: 10px;
+}
+
+select+button{
+  margin-left: 20px;
+}

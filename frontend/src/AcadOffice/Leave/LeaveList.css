@@ -1,0 +1,57 @@
+/* Style for the main container */
+.application-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the heading */
+  .application-list-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the loading message */
+  .loading-message {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style for the application list */
+  .application-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each application item */
+  .application-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style for application fields */
+  .application-field {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for application field labels */
+  .field-label {
+    font-weight: bold;
+  }
+  
+  /* Style for application field values */
+  .field-value {
+    color: #333;
+  }
+  
+  /* Style for the 'No applications found' message */
+  .no-applications-message {
+    font-size: 16px;
+    color: #666;
+  }
+  

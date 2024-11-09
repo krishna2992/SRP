@@ -1,0 +1,78 @@
+/* App.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+   */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  .print_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .print_th {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .print_td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .print_button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .print_button:hover {
+    background-color: #0056b3;
+  }
+  .print_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px; /* Add a margin bottom to create a gap between tables */
+  }
+  
+  .print_th,
+  .print_td {
+    border: 1px solid #000;
+    padding: 8px;
+    font-size: 10px; /* Reduce font size */
+  }
+  
+  .print_button {
+    margin-top: 20px;
+  }
+  
+  

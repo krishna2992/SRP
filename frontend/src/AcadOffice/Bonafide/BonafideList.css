@@ -1,0 +1,57 @@
+/* Style for the main container */
+.bonafide-list-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the heading */
+  .bonafide-list-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the loading message */
+  .bonafide-loading-message {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Style for the bonafide list */
+  .bonafide-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for each bonafide application item */
+  .bonafide-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style for bonafide application fields */
+  .bonafide-field {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for bonafide application field labels */
+  .bonafide-field-label {
+    font-weight: bold;
+  }
+  
+  /* Style for bonafide application field values */
+  .bonafide-field-value {
+    color: #333;
+  }
+  
+  /* Style for the 'No bonafide applications found' message */
+  .no-bonafide-applications-message {
+    font-size: 16px;
+    color: #666;
+  }
+  

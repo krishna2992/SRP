@@ -1,0 +1,116 @@
+/* App.css */
+
+  
+  .choice-main-container {
+    /* max-width: 800px; */
+    margin: 0 10% 10% 10%;
+    padding: 20px;
+    min-height: 500px;
+    font-size: large;
+  }
+  
+  .option-h2 {
+    margin-top: 0;
+  }
+  
+  .option-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option-li {
+    margin-bottom: 5px;
+  }
+  
+  .option-label {
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 10px;
+    width:200px;
+    float: right;
+    margin: 50px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+
+  
+
+/* Increase the size of the checkboxes */
+.option-radio,.subject-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 25px; /* Add some space between the checkbox and the label */
+  }
+  
+  /* ElectiveSelection.css */
+
+.subject-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subject-item {
+  margin-right: 20px;
+}
+
+/* ElectiveSelection.css */
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.subject-table th, .subject-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.subject-table th {
+  background-color: #f2f2f2;
+}
+
+.subject-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.subject-table tr:hover {
+  background-color: #ddd;
+}
+
+/* ElectiveSelection.css */
+
+.subject-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.subject-table th, .subject-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.subject-table th {
+  background-color: #f2f2f2;
+}
+
+.subject-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.subject-table tr:hover {
+  background-color: #ddd;
+}

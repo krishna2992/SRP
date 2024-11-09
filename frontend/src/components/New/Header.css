@@ -1,0 +1,90 @@
+.header-main-container{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px rgba(31, 4, 4, 0.2);
+    background-color: white;
+    margin-bottom: 10px;
+    
+}
+
+.link-div-box{
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+.link-div-box a{
+    padding: 10px;
+    padding-bottom: 25px;
+    margin: 25px;
+    border: 30%;
+    text-decoration: none;
+    font-size: large;
+    color: #2C3E50;
+}
+
+
+.link-div-box a:hover{
+    color:#2C3E50;
+    border-bottom: 3px solid #2C3E50;
+}
+
+.auth-div{
+    margin-top: 10px;   
+}
+
+.auth-div button{
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.auth-div button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu ul li:hover {
+    background-color: #f0f0f0;
+  }
+  

@@ -1,0 +1,57 @@
+.verify-main-container{
+    margin: 2%;
+}
+
+.verify-main-container-header{
+    height: 50px;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    font-size:x-large;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+
+.verify-student-div{
+    padding: 10px;
+    /* border: 1px solid black; */
+    width: 400px;
+}
+
+.students-div-info{
+    /* border: 1px solid black; */
+    padding: 10px;
+    color: black;
+
+}
+
+.students-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.verify-header-search-box{
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.verify-header-search-box input{
+    height: 25px;
+    margin: 0;
+    font-size: large;
+    padding: 3px;
+    outline: none;
+    border: 3px;
+    border-radius: 4px;
+}
+
+.verify-header-search-box img{
+    margin-top: 4px;
+    height: 24px;
+}

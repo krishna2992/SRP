@@ -1,0 +1,25 @@
+.footer-main{
+    background-color: #133251;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 25px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+
+.footer-div-2 h2{
+    color: rgba(27, 177, 0, 0.924);
+}
+
+.footer-links-div p a{
+    text-decoration: none;
+    color: white;
+}

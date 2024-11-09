@@ -1,0 +1,119 @@
+/* App.css */
+
+.choice-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+  }
+  
+  .choice-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .choice-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .choice-list th,
+  .choice-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .choice-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .choice-list tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .choice-up-button,.choice-down-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: large;
+  }
+  
+  .choice-list button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  .choice-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .choice-list table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .choice-list table th, .choice-list table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .choice-list tableth {
+    background-color: #f2f2f2;
+  }
+  
+  .choice-list table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .choice-list table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Set fixed width for columns */
+  .choice-list table td:nth-child(1),
+  .choice-list table th:nth-child(1) {
+    width: 20%;
+  }
+  
+  .choice-list table td:nth-child(2),
+  .choice-list table th:nth-child(2) {
+    width: 30%;
+  }
+  
+  .choice-list table td:nth-child(3),
+  .choice-list table th:nth-child(3) {
+    width: 20%;
+  }
+  
+  .choice-list table td:nth-child(4),
+  .choice-list table th:nth-child(4) {
+    width: 30%;
+  }
+  
+  /* Center align text in table cells */
+  .choice-list table td,
+  .choice-list table th {
+    text-align: center;
+  }
+  
+
+  .initial-choice-submit-button {
+    padding: 5px 10px;
+    font-size: large;
+    cursor: pointer;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .backlog-choice-select{
+    transform: scale(1.5);
+  }

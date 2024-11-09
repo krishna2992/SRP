@@ -1,0 +1,40 @@
+.payment-detail-div{
+    margin: 20px;
+    margin-left: 2%;
+    border: 3px solid black;
+    border-radius: 10px 10px;
+    
+}
+
+.payment-detail-div header{
+    padding: 10px;
+    background-color: #213a54;
+    color: #fff;
+}
+
+.payment-pair{
+    display: flex;
+    margin-left: 10px;
+}
+
+.payment-fields{
+    flex:1;
+    padding: 10px;
+}
+
+.payment-fields label{
+    color: #213a54;
+    padding-bottom: 0;
+    font-size: large;
+    font-weight: bold;
+}
+
+.payment-fields p{
+        padding-left    :5px;
+        padding-bottom: 5px;
+        font-size:x-large;
+        font-weight: 300;
+        padding-top: 0;
+        border-bottom: 1px solid rgb(99, 91, 91);
+        width: 80%;
+}

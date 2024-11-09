@@ -1,0 +1,93 @@
+.date-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.date-bar-div{
+    padding: 15px;
+    font-size: larger;
+}
+
+.date-bar-div label{
+    color: #2C3E50;
+    padding-right: 10px;
+}
+
+.date-picker{
+    font-size: large;
+    /* border: 3px solid black; */
+    /* border-radius: 5px; */
+    /* outline: none; */
+    padding: 2px;
+    padding-left: 10px;
+}
+
+.react-datepicker-wrapper{
+    
+    align-items: center;
+}
+
+.date-sebd-button{
+    height: 28px;
+    margin-top: 12px;
+    width: 100px;
+    background-color: #2C3E50;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 10px;
+}
+
+
+.test-date-div{
+    margin-left: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.test-date-div {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.date-picker-widget{
+    background-color: rgb(248, 247, 247);
+    width: 200px;
+    height:25px;
+    font-size: large;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+
+.react-datepicker__input-container{
+    width: 210px;
+    height: 25px;
+    align-items: center;
+}
+
+.date-picker-label {
+    padding-left: 25px;
+    padding-right: 5px;
+    height: 37px;
+    font-size: larger;
+    display: flex;
+    align-items: center; /* Vertical alignment */
+   justify-content: center;
+   color: #0c5195;
+}
+
+
+.search-date-button{
+    background-color: rgb(44, 62, 80);
+    color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+

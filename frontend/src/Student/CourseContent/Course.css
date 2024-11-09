@@ -1,0 +1,58 @@
+.course-content-container{
+    min-height: 600px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 12%;
+}
+
+.course-header{
+    display: flex;
+    background-color: #2C3E50;
+}
+
+
+
+
+.add-content-button button{
+    float: right;
+    margin-right: 20px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.per-file-attachment-div{
+    display: flex;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 1px solid rgb(139, 138, 138);
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    padding-right: 3px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+
+.per-file-attachment-div:hover{
+    transform: scale(1.05); /* Increase by 20% */
+}
+
+.per-content-div{
+    border: 3px solid rgb(176, 173, 173);
+    padding: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.delete_post_button{
+    background-color: white;
+}

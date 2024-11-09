@@ -1,0 +1,15 @@
+sem,code,name,credit,branch,degree,type
+1,MA101,Mathematics I,8,cse,btech,compulsory
+1,CS101,Computer Programming,6,cse,btech,compulsory
+1,CS110,Computer Programming Lab,5,cse,btech,compulsory
+1,EC101,Digital Design,8,cse,btech,compulsory
+1,EC110,Digital Design Lab,3,cse,btech,compulsory
+1,EC102,Electrical Circuit Analysis,8,cse,btech,compulsory
+1,HS101,English,4,cse,btech,compulsory
+1,GE101,Induction Program,6,cse,btech,compulsory
+2,MA102,Mathematics II,8,cse,btech,compulsory
+2,CS103,Data Structures,8,cse,btech,compulsory
+2,CS111,Data Structures Lab,3,cse,btech,compulsory
+2,CS104,Computer Organization,8,cse,btech,compulsory
+2,EC103,Basic Electronics Circuits,8,both,btech,compulsory
+2,EC111,Basic Electronics Lab,3,both,btech,compulsory

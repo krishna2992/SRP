@@ -1,0 +1,55 @@
+.post-upload-form{
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* max-width: 800px; */
+    font-size: larger;
+}
+
+
+.upload-textarea-input{
+    width: 100%; /* Make the textarea take up the full width of its container */
+    padding: 10px; /* Add padding for better readability */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for file input */
+  .upload-file-input {
+    width: 100%; /* Make the file input take up the full width of its container */
+    padding: 10px; /* Add padding for better readability */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #fff; /* Set background color */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  /* Styling for upload button */
+.post-upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-upload-button:hover {
+    background-color: #0056b3;
+  }
+  
